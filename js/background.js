@@ -1,3 +1,5 @@
+// set background
+
 const images = [
     "0.jpg",
     "1.jpg",
