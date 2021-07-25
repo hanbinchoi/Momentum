@@ -8,18 +8,36 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <form id="login-form">
-        <input 
-            required 
-            maxlength="15"
-            type="text"
-            placeholder="What is your name?" 
-        />
-        <input type="submit" value="Log in"/>        
-    </form>
     <h2 id="clock"></h2>
-    <h1 id="greeting" class="hidden"></h1>
+    <div id="login-container">
+        <form id="login-form">
+            <input 
+                id="type-name"
+                required 
+                maxlength="15"
+                type="text"
+                placeholder="Type your name here" 
+            />      
+        </form>
+        <h1 id="greeting" class="hidden"></h1>
+        <form id="todo-form">
+            <input
+                id="type-todo" 
+                type="text" placeholder="Write a To Do here" required>
+        </form>
+        
+    </div>
+    
+    
+    
+    <ul id="todo-list">
+        
+    </ul>
     <div id="quote">
+        <span></span>
+        <span></span>
+    </div>
+    <div id ="weather">
         <span></span>
         <span></span>
     </div>
@@ -27,5 +45,7 @@
     <script src="js/clock.js"></script>
     <script src="js/quotes.js"></script>
     <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
 </body>
 </html>
