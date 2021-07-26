@@ -24,10 +24,15 @@ function paintToDo(newTodoObj){
     const li = document.createElement("li");
     li.id = newTodoObj.id;
     const span = document.createElement("span");
-    span.innerText=newTodoObj.text;
+    span.innerText=`${newTodoObj.text}`;
+    span.style.marginRight = "10px";
     const button = document.createElement("button");
     button.innerText = "❌"; //이모지 단축기는 윈도우 + .
     button.addEventListener("click",deleteToDo);
+    button.style.padding = 0;
+    button.style.marginRight = "2px";
+    button.style.background="transparent";
+    button.style.border="none";
     li.appendChild(span);
     li.appendChild(button);
     toDoList.appendChild(li);

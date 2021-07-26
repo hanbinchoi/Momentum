@@ -12,7 +12,4 @@ const images = [
 const chosenImage = images[Math.floor(Math.random() * images.length)];
 
 const body = document.body;
-
-body.style.backgroundImage = `url(/img/${chosenImage})`;
-body.style.backgroundRepeat = "no-repeat";
-body.style.backgroundSize ="cover";
+body.style.background = `linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ),url("/img/${chosenImage}`;
