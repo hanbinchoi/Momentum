@@ -9,6 +9,7 @@ const images = [
         
 ];
 
+
 const chosenImage = images[Math.floor(Math.random() * images.length)];
 
 const body = document.body;
