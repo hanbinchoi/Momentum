@@ -16,7 +16,7 @@
 
   현재 PC의 위치를 기준으로 openweathermap API를 불러온다.
 
-  fetch를 통해 api를 호출하여 도시, 날씨, 온도 등의 정보 가져옴.
+  fetch를 통해 api를 호출하여 도시, 날씨, 온도 등의 정보 가져옴. 
 
 - **quotes.js**
 
