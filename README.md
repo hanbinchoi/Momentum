@@ -42,6 +42,6 @@
 
   사용자 이름, todo(할 일)을 input태그로 입력받으면, 해당하는 문구를 화면에 출력함.
 
-  사용자 이름을 입력하면 input하는 공간 대신 hello (이름)! 이라는 문구로 대체되며, localStorage에 저장하여 새로고쳐도 다시 입력할 필요가 없음.
+  사용자 이름을 입력하면 input하는 공간 대신 hello (이름)! 이라는 문구로 대체되며, localStorage에 저장하여 새로고쳐도 다시 입력할 필요가 없음. 
 
 ### [URL](https://hanbinchoi.github.io/momentum/)
