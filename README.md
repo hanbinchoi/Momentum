@@ -6,7 +6,7 @@
 
 ### **Function**
 
-- **background.js**
+- **background.js** 
 
   img폴더 안에 이미지들을 랜덤으로 선택하여 배경으로 지정
 
